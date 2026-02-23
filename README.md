@@ -4,7 +4,7 @@ It has a built in power supply block, that takes from 18VDC to 53VDC, being desi
 and provides 5V@6A to power the RNode and the SBC, running RNS.
 The node will provide up to 33dBm (2W) of output power.
 
-For more info on the HW design, check aethernode_v1.0_design_ overview file.
+For more info on the HW design, check aethernode_v1.0_design_ overview file (https://github.com/ahedproductions/aethernode/blob/main/aethernode_v1.0_design_%20overview.pdf).
 
 Node with CDEBYTE TX433-JZLW-15 3dBi gain antenna for more compact build (https://www.cdebyte.com/products/TX433-JZLW-15)
 
