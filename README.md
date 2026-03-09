@@ -17,3 +17,9 @@ Node with CDEBYTE TX433-JZLW-15 3dBi gain antenna for more compact build (https:
 Node with CDEBYTE TX433-BLG-40 4.5dBi gain sleeve dipole antenna for best range (https://www.cdebyte.com/products/TX433-BLG-40)
 
 ![1000009271](https://github.com/user-attachments/assets/d668b151-c820-4559-8ed0-c183b8a2e09d)
+
+Deployed in the sky!
+
+![photo_2026-03-07_12-02-07 (4)](https://github.com/user-attachments/assets/c87236df-017e-4bb8-9c75-1c4c6a1c6729)
+![photo_2026-03-07_12-02-07 (2)](https://github.com/user-attachments/assets/04e3f536-343c-439d-9a84-03e34cd89258)
+![photo_2026-03-07_12-02-07 (3)](https://github.com/user-attachments/assets/939b221a-ae43-49a7-9221-91d2a7f85870)
