@@ -6,6 +6,11 @@ The node will provide up to 33dBm (2W) of output power.
 
 A web flasher, that can flash the aethernode - https://rns.moscow/flasher
 
+NOTE: While the power supply on the PCBA is capable of withstanding 75V input voltage, the protection diode D1 is set to conduct at around 55VDC.
+This allows ample window for standard 48V PoE voltage. If one uses battery backup, for example Lead-Acid, the output voltage of a fully charged set
+would be around 55-57VDC and this WILL cause D1 to conduct and short the PS. If one uses such backup, either change D1 to SMCJ58A,
+which will conduct at around 67VDC and will not interfere with normal operation under such backup.
+
 For more info on the HW design, check aethernode_v1.0_design_ overview file (https://github.com/ahedproductions/aethernode/blob/main/aethernode_v1.0_design_%20overview.pdf).
 
 Node with CDEBYTE TX433-JZLW-15 3dBi gain antenna for more compact build (https://www.cdebyte.com/products/TX433-JZLW-15)
