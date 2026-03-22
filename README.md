@@ -30,7 +30,7 @@ Deployed in the sky!
 ![photo_2026-03-07_12-02-07 (3)](https://github.com/user-attachments/assets/939b221a-ae43-49a7-9221-91d2a7f85870)
 ![c30c4971-353e-48e3-90e8-260c9b61710a](https://github.com/user-attachments/assets/3470bb36-48e6-4974-8200-bfe25fdd7aa4)
 
-In places with high winds, the box top wall might be too thin and allow for rocking movements to manifest in the antenna base at specific wind speeds, much like this happens with round-tubed parking barriers. In this case an additional metal detail will greatly reduce the chanece of damage. Mine are cut from 2mm aluminium, but you can use whatever is stiff enough and not too thick. You might need o cut a bit from the baseplate mounting fins.
+In places with high winds, the box top wall might be too thin and allow for rocking movements to manifest in the antenna base at specific wind speeds, much like this happens with round-tubed parking barriers. In this case an additional metal detail will greatly reduce the chance of damage. Mine are cut from 2mm aluminium, but you can use whatever is stiff enough and not too thick. You might need to cut a bit from the baseplate mounting fins to make place for the new plate.
 
 ![photo_2026-03-22_11-58-17](https://github.com/user-attachments/assets/b8a311cf-1d03-460c-afaa-4a7c88c6d9fe)
 ![photo_2026-03-22_11-58-17 (2)](https://github.com/user-attachments/assets/d12e9b6f-6c12-4c48-be86-de530cec1c9b)
