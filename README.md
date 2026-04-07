@@ -1,3 +1,11 @@
+NOTE: All design files were replaced with a new version! 
+
+It includes provision for two types of transmission control of the LoRa module:
+1. DIO2 based control with an external transistor inverter to control also the RXEN pin. (REMOVE R3/R4 if selected!)
+2. TXEN/RXEN external control of the module via pons G17/G16. (REMOVE R2/Q1 if selected!)
+
+<img width="823" height="576" alt="3drnode" src="https://github.com/user-attachments/assets/2e85072e-8f93-4287-a06a-2465e3da385d" />
+
 A Reticulum Network stationary transport/discovery enabled node - RRNode. 
 Designed around OrangePI Zero LTE, an AZDelivery NodeMCU ESP32 and a CDEBYTE E22-400M33S LoRa radio.
 It has a built in power supply block, that takes from 18VDC to 53VDC, being designed for the nominal Power Over Ethernet(PoE) voltage of 48VDC,
@@ -10,8 +18,6 @@ NOTE: While the power supply on the PCBA is capable of withstanding 75V input vo
 This allows ample window for standard 48V PoE voltage. If one uses battery backup, for example Lead-Acid, the output voltage of a fully charged set
 would be around 55-57VDC and this WILL cause D1 to conduct and short the PS. If one uses such backup, change D1 to SMCJ58A,
 which will conduct at around 67VDC and will not interfere with normal operation under such backup.
-
-For more info on the HW design, check aethernode_v1.0_design_ overview file (https://github.com/ahedproductions/aethernode/blob/main/aethernode_v1.0_design_%20overview.pdf).
 
 Node with CDEBYTE TX433-JZLW-15 3dBi gain antenna for more compact build (https://www.cdebyte.com/products/TX433-JZLW-15)
 
