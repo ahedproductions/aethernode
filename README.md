@@ -14,7 +14,7 @@ It has a built in power supply block, that takes from 18VDC to 53VDC, being desi
 and provides 5V@6A to power the RNode and the SBC, running RNS.
 The node will provide up to 33dBm (2W) of output power.
 
-A web flasher, that can flash the aethernode - https://rns.moscow/flasher or https://flasher.aetherlab.org/
+A web flasher, that can flash the aethernode - https://rns.moscow/flasher
 
 NOTE: While the power supply on the PCBA is capable of withstanding 75V input voltage, the protection diode D1 is set to conduct at around 55VDC.
 This allows ample window for standard 48V PoE voltage. If one uses battery backup, for example Lead-Acid, the output voltage of a fully charged set
