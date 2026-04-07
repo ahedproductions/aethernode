@@ -2,7 +2,8 @@ NOTE: All design files were replaced with a new version!
 
 It includes provision for two types of transmission control of the LoRa module:
 1. DIO2 based control with an external transistor inverter to control also the RXEN pin. (REMOVE R3/R4 if selected!)
-2. TXEN/RXEN external control of the module via pons G17/G16. (REMOVE R2/Q1 if selected!)
+   NOTE: This is the version the current FW is compiled for!
+3. TXEN/RXEN external control of the module via pons G17/G16. (REMOVE R2/Q1 if selected!)
 
 <img width="823" height="576" alt="3drnode" src="https://github.com/user-attachments/assets/2e85072e-8f93-4287-a06a-2465e3da385d" />
 
