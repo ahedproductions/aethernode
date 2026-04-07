@@ -1,10 +1,10 @@
-NOTE: All design files were replaced with a new version! 
+NOTE: After some testing and rework it was discovered, that without RXEN high on receive, the E22 is very much deaf, because a diode switch inside draws the RX path to ground to protect the LNA input when transmitting. It the process all design files were changed, and the old ones have been removed and deemed erroneous. For all who have built the aethernode as is, there is option 1 with an addon of 3 parts.
 
 It includes provision for two types of transmission control of the LoRa module:
 1. DIO2 based control with an external transistor inverter to control also the RXEN pin. (REMOVE R3/R4 if selected!)
 
    NOTE: This is the version the current FW is compiled for!
-3. TXEN/RXEN external control of the module via pons G17/G16. (REMOVE R2/Q1 if selected!)
+2. TXEN/RXEN external control of the module via pons G17/G16. (REMOVE R2/Q1 if selected!)
 
 <img width="823" height="576" alt="3drnode" src="https://github.com/user-attachments/assets/2e85072e-8f93-4287-a06a-2465e3da385d" />
 
