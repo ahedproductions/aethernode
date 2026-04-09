@@ -11,7 +11,7 @@ It includes provision for two types of transmission control of the LoRa module, 
 <img width="823" height="576" alt="3drnode" src="https://github.com/user-attachments/assets/2e85072e-8f93-4287-a06a-2465e3da385d" />
 
 A Reticulum Network stationary transport/discovery enabled node - RRNode. 
-Designed around OrangePI Zero LTE, an AZDelivery NodeMCU ESP32 and a CDEBYTE E22-400M33S LoRa radio.
+Designed around OrangePI Zero LTE, an AZDelivery NodeMCU ESP32 and a CDEBYTE E22-XXXM33S LoRa radio.
 It has a built in power supply block, that takes from 18VDC to 53VDC, being designed for the nominal Power Over Ethernet(PoE) voltage of 48VDC,
 and provides 5V@6A to power the RNode and the SBC, running RNS.
 The node will provide up to 33dBm (2W) of output power.
