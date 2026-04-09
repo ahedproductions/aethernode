@@ -3,7 +3,7 @@ NOTE: After some testing and rework it was discovered, that without RXEN high on
 It includes provision for two types of transmission control of the LoRa module, and while I recommend using DIO2 based control, both are included:
 1. DIO2 based control with an external transistor inverter to control also the RXEN pin. (REMOVE R3/R4 if selected!)
 
-   Firmware: [rnode_firmware_aethernode_dio2.zip](https://github.com/ahedproductions/aethernode/blob/main/Firmware/rnode_firmware_aethernode_dio2.zip)
+   Firmware: [rnode_firmware_aethernode_dio2.zip](https://github.com/ahedproductions/aethernode/blob/main/Firmware/rnode_firmware_aethernode_dio2.zip) - this is what will be flashed by the flashers by default! If you want to play with the TX/RX version, download the file directly and flash it.
 2. TXEN/RXEN external control of the module via pins G17/G16. (REMOVE R2/Q1 if selected!)
 
    Firmware: [rnode_firmware_aethernode_rxtx.zip](https://github.com/ahedproductions/aethernode/blob/main/Firmware/rnode_firmware_aethernode_rxtx.zip)
