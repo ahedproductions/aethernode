@@ -1,6 +1,6 @@
 NOTE: After some testing and rework it was discovered, that without RXEN high on receive, the E22 is very much deaf, because a diode switch inside draws the RX path to ground to protect the LNA input when transmitting. It the process all design files were changed, and the old ones have been removed and deemed erroneous. For all who have built the aethernode as is, there is option 1 with an addon of 3 parts. Please check the schematic!
 
-It includes provision for two types of transmission control of the LoRa module:
+It includes provision for two types of transmission control of the LoRa module, and while I recommend using DIO2 based control, both are included:
 1. DIO2 based control with an external transistor inverter to control also the RXEN pin. (REMOVE R3/R4 if selected!)
 
    Firmware: [rnode_firmware_aethernode_dio2.zip](https://github.com/ahedproductions/aethernode/blob/main/Firmware/rnode_firmware_aethernode_dio2.zip)
